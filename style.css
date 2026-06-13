@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: #0B1220;
+    color: #F8FAFC;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #F59E0B;
+    margin-top: 5px;
+}
+
+.tagline {
+    color: #CBD5E1;
+}
+
+.hero-card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.hero-card h3 {
+    margin-top: 0;
+}
+
+#top-city {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.leaderboard,
+.about {
+    background: #111827;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    color: #F59E0B;
+    text-align: left;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-top: 1px solid #374151;
+}

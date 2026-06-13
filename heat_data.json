@@ -1,0 +1,22 @@
+[
+  {
+    "city": "Karachi",
+    "country": "Pakistan",
+    "heat_index": 99.9
+  },
+  {
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "heat_index": 54.8
+  },
+  {
+    "city": "Delhi",
+    "country": "India",
+    "heat_index": 53.4
+  },
+  {
+    "city": "Lahore",
+    "country": "Pakistan",
+    "heat_index": 52.9
+  }
+]
