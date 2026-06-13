@@ -2,44 +2,84 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>HBI Dashboard</title>
+    <title>HBI - Heat Burden Intelligence</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
     <div class="container">
 
-        <h1>HBI</h1>
+        <header>
 
-        <h2>Heat Burden Intelligence</h2>
+            <h1>HBI</h1>
 
-        <p class="subtitle">
-            South Asia Heat Stress Watch
-        </p>
+            <h2>Heat Burden Intelligence</h2>
 
-        <div class="card">
+            <p class="tagline">
+                Tracking Heat Stress Across South Asia
+            </p>
 
-            <h3>Top Heat Stress Cities</h3>
+        </header>
+
+        <section class="hero-card">
+
+            <h3>🔥 Highest Heat Stress Today</h3>
+
+            <div id="top-city">
+
+                Loading...
+
+            </div>
+
+        </section>
+
+        <section class="leaderboard">
+
+            <h3>Heat Stress Leaderboard</h3>
 
             <table>
 
+                <thead>
+
                     <tr>
-                    <th>Rank</th>
-                    <th>City</th>
-                    <th>Heat Index</th>
+                        <th>Rank</th>
+                        <th>City</th>
+                        <th>Heat Index</th>
+                        <th>Risk</th>
                     </tr>
 
-                    <tbody id="heat-table-body">
-                    </tbody>
+                </thead>
+
+                <tbody id="heat-table-body">
+
+                </tbody>
 
             </table>
 
-        </div>
+        </section>
+
+        <section class="about">
+
+            <h3>About HBI</h3>
+
+            <p>
+
+                Heat Burden Intelligence (HBI) tracks
+                heat stress exposure across South Asia
+                using environmental indicators that
+                combine temperature and humidity into
+                a human-centred measure of risk.
+
+            </p>
+
+        </section>
 
     </div>
 
