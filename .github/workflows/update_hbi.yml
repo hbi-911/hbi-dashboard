@@ -1,4 +1,4 @@
-name: Update HBI Data
+name: Update HBI Data v2
 
 on:
   schedule:
