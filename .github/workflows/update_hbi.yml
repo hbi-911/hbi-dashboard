@@ -3,7 +3,7 @@ name: Update HBI Data
 on:
   schedule:
     - cron: '*/15 * * * *'
-      workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: write
