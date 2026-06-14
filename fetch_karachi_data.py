@@ -109,7 +109,8 @@ results.sort(
 # CALCULATE TRENDS
 # ==========================
 
-
+print(f"Stations fetched: {len(results)}")
+print(f"Newest timestamp: {results[0]['timestamp']}")
 
 previous_snapshot = None
 
@@ -122,36 +123,39 @@ if os.path.exists("history.json"):
             history = json.load(f)
 
             if len(history) > 0:
-                    previous_snapshot = history[-1]
+                previous_snapshot = history[-1]
 
     except:
+
         previous_snapshot = None
 
-    if previous_snapshot:
+if previous_snapshot:
 
-        previous_stations = {
+    previous_stations = {
+
         s["station_id"]: s
         for s in previous_snapshot["stations"]
-}
 
-for station in results:
+    }
 
-    previous = previous_stations.get(
-        station["station_id"]
-    )
+    for station in results:
 
-    if previous:
-
-        delta = (
-            station["heat_index"]
-            - previous["heat_index"]
+        previous = previous_stations.get(
+            station["station_id"]
         )
 
-        station["trend"] = delta
+        if previous:
 
-    else:
+            delta = (
+                station["heat_index"]
+                - previous["heat_index"]
+            )
 
-        station["trend"] = 0
+            station["trend"] = delta
+
+        else:
+
+            station["trend"] = 0
 
 else:
 
@@ -159,9 +163,13 @@ else:
 
         station["trend"] = 0
 
+
 # ==========================
 # SAVE CURRENT DATA
 # ==========================
+
+if len(results) == 0:
+    raise Exception("No station data collected")
 
 with open("heat_data.json", "w") as f:
 
