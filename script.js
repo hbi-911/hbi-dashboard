@@ -11,6 +11,26 @@ if (heatIndex >= 32)
 
 return "Caution";
 
+
+}
+
+function getTrendIcon(trend) {
+
+if (trend >= 2)
+    return `▲ +${trend}`;
+
+if (trend > 0)
+    return `↗ +${trend}`;
+
+if (trend <= -2)
+    return `▼ ${trend}`;
+
+if (trend < 0)
+    return `↘ ${trend}`;
+
+return "▬ 0";
+
+
 }
 
 function getNightRecoveryStatus(data) {
@@ -20,29 +40,32 @@ const stationsAbove32 =
         x => x.heat_index >= 32
     ).length;
 
-if (stationsAbove32 >= 8)
-    return `
-    Recovery Failure<br>
-    ${stationsAbove32}/11 stations
-    above 32°C HI
-    `;
+let status = "GOOD RECOVERY";
 
-if (stationsAbove32 >= 5)
-    return `
-    Poor Recovery<br>
-    ${stationsAbove32}/11 stations
-    above 32°C HI
-    `;
+if (stationsAbove32 >= 8)
+    status = "RECOVERY FAILURE";
+
+else if (stationsAbove32 >= 5)
+    status = "POOR RECOVERY";
 
 return `
-Good Recovery<br>
-${stationsAbove32}/11 stations
-above 32°C HI
+<div class="hero-value">
+${stationsAbove32}/11
+</div>
+
+<div class="hero-status">
+${status}
+</div>
+
+<div class="hero-label">
+Above 32°C HI
+</div>
 `;
 
 }
 
 function getBurdenScore(data) {
+
 
 const scores =
     data.map(
@@ -55,9 +78,11 @@ const avg =
 
 return avg.toFixed(1);
 
+
 }
 
 function getBurdenCategory(score){
+
 
 if(score >= 50)
     return "SEVERE";
@@ -70,43 +95,89 @@ if(score >= 30)
 
 return "LOW";
 
+
 }
 
 function getCityStatus(data) {
+
 
 const dangerStations =
     data.filter(
         x => x.heat_index >= 41
     ).length;
 
-if (dangerStations >= 8)
-    return `
-    <span class="status-danger">
-    DANGER
-    </span><br>
-    ${dangerStations}/11 stations
-    above danger threshold
-    `;
+let status = "MODERATE";
+let cssClass = "status-safe";
 
-if (dangerStations >= 4)
-    return `
-    <span class="status-warning">
-    HIGH RISK
-    </span><br>
-    ${dangerStations}/11 stations
-    above danger threshold
-    `;
+if (dangerStations >= 8) {
+    status = "DANGER";
+    cssClass = "status-danger";
+}
+else if (dangerStations >= 4) {
+    status = "HIGH RISK";
+    cssClass = "status-warning";
+}
 
 return `
-<span class="status-safe">
-MODERATE
-</span><br>
-Heat stress manageable
+    <div class="hero-value">
+    ${dangerStations}/11
+    </div>
+
+    <div class="hero-status ${cssClass}">
+    ${status}
+    </div>
+
+    <div class="hero-label">
+    Stations in Danger
+    </div>
+`;
+}
+
+function getTrendStatus(data) {
+
+let worsening = 0;
+let improving = 0;
+let stable = 0;
+
+data.forEach(station => {
+
+    if (station.trend > 0)
+        worsening++;
+
+    else if (station.trend < 0)
+        improving++;
+
+    else
+        stable++;
+
+});
+
+let status = "STABLE";
+
+if (worsening > improving)
+    status = "HEATING UP";
+
+if (improving > worsening)
+    status = "COOLING";
+
+return `
+<div class="hero-value">
+${stable}/${data.length}
+</div>
+
+<div class="hero-status">
+${status}
+</div>
+
+<div class="hero-label">
+Network Trend
+</div>
 `;
 
 }
 
 async function loadHeatData() {
+
 
 const response =
     await fetch("heat_data.json");
@@ -135,6 +206,9 @@ const karachiStatus =
 const heatDivide =
     document.getElementById("heat-divide");
 
+const trendStatus =
+    document.getElementById("trend-status");
+
 tableBody.innerHTML = "";
 
 const sorted =
@@ -156,7 +230,7 @@ const ts =
     );
 
 lastUpdate.innerHTML =
-    "Last Updated: " +
+    "Updated " +
     ts.toLocaleDateString("en-GB", {
         day: "numeric",
         month: "short",
@@ -174,27 +248,47 @@ lastUpdate.innerHTML =
 karachiStatus.innerHTML =
     getCityStatus(sorted);
 
+// Trend Card
+
+if (trendStatus) {
+    trendStatus.innerHTML =
+        getTrendStatus(sorted);
+}
+
 // Heat Divide Card
 
 heatDivide.innerHTML = `
-Highest: ${hottest.area}
-(${hottest.heat_index}°C)<br><br>
-
-Lowest: ${lowest.area}
-(${lowest.heat_index}°C)<br><br>
-
-Difference:
+<div class="hero-value">
 ${hottest.heat_index - lowest.heat_index}°C
+</div>
+
+<div class="hero-status">
+URBAN HEAT DIVIDE
+</div>
+
+<div class="hero-label">
+${hottest.area} → ${lowest.area}
+</div>
 `;
 
 // Highest Heat Burden Card
 
 topCity.innerHTML = `
-<strong>${hottest.area}</strong><br>
-${hottest.heat_index}°C Heat Index<br>
-${hottest.humidity}% Humidity<br><br>
+<div class="hero-value">
+${hottest.heat_index}°C
+</div>
 
-${getRisk(hottest.heat_index)}
+<div class="hero-status">
+${hottest.area}
+</div>
+
+<div class="hero-label">
+Highest Heat Burden
+</div>
+
+<div class="hero-small">
+${hottest.humidity}% RH
+</div>
 `;
 
 // Night Recovery Card
@@ -208,11 +302,17 @@ const score =
     getBurdenScore(sorted);
 
 burdenScore.innerHTML = `
-${score}<br>
-${getBurdenCategory(score)} BURDEN<br><br>
+<div class="hero-value">
+${score}
+</div>
 
-City-wide heat
-stress elevated
+<div class="hero-status">
+${getBurdenCategory(score)}
+</div>
+
+<div class="hero-label">
+Karachi Burden Score
+</div>
 `;
 
 // Leaderboard
@@ -226,16 +326,15 @@ sorted.forEach((city, index) => {
         <td>${index + 1}</td>
         <td>${city.area}</td>
         <td>${city.heat_index}°C</td>
-        <td>${city.temperature}°C</td>
-        <td>${city.humidity}%</td>
+        <td>${getTrendIcon(city.trend)}</td>
         <td class="
         risk-${city.risk
-            .toLowerCase()
-            .replaceAll(' ','-')}
-        ">
-        ${city.risk}
-        </td>
-    `;
+        .toLowerCase()
+        .replaceAll(' ','-')}
+    ">
+    ${city.risk}
+    </td>
+`;
 
     tableBody.appendChild(row);
 

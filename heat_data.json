@@ -8,7 +8,8 @@
     "heat_index": 49,
     "risk": "Danger",
     "latitude": 24.797035,
-    "longitude": 67.057496
+    "longitude": 67.057496,
+    "trend": 0
   },
   {
     "area": "Bath Island",
@@ -19,7 +20,20 @@
     "heat_index": 47,
     "risk": "Danger",
     "latitude": 24.830362,
-    "longitude": 67.034933
+    "longitude": 67.034933,
+    "trend": 0
+  },
+  {
+    "area": "DHA Phase 2",
+    "station_id": "IKARAC72",
+    "timestamp": "2026-06-14 16:40:40",
+    "temperature": 33,
+    "humidity": 74,
+    "heat_index": 44,
+    "risk": "Danger",
+    "latitude": 24.829343,
+    "longitude": 67.069202,
+    "trend": 0
   },
   {
     "area": "Tank Chowk",
@@ -41,7 +55,8 @@
     "heat_index": 42,
     "risk": "Danger",
     "latitude": 24.954111,
-    "longitude": 67.143149
+    "longitude": 67.143149,
+    "trend": 0
   },
   {
     "area": "DHA City",

@@ -1,5 +1,7 @@
 import requests
 import json
+import os
+from datetime import datetime
 
 # ==========================
 # CONFIGURATION
@@ -66,6 +68,8 @@ for station_id, area in stations.items():
 
         response = requests.get(url, timeout=20)
 
+        print(f"{station_id}: {response.status_code}")
+
         data = response.json()
 
         obs = data["observations"][0]
@@ -102,7 +106,61 @@ results.sort(
 )
 
 # ==========================
-# SAVE JSON
+# CALCULATE TRENDS
+# ==========================
+
+
+
+previous_snapshot = None
+
+if os.path.exists("history.json"):
+
+    try:
+
+        with open("history.json", "r") as f:
+
+            history = json.load(f)
+
+            if len(history) > 0:
+                    previous_snapshot = history[-1]
+
+    except:
+        previous_snapshot = None
+
+    if previous_snapshot:
+
+        previous_stations = {
+        s["station_id"]: s
+        for s in previous_snapshot["stations"]
+}
+
+for station in results:
+
+    previous = previous_stations.get(
+        station["station_id"]
+    )
+
+    if previous:
+
+        delta = (
+            station["heat_index"]
+            - previous["heat_index"]
+        )
+
+        station["trend"] = delta
+
+    else:
+
+        station["trend"] = 0
+
+else:
+
+    for station in results:
+
+        station["trend"] = 0
+
+# ==========================
+# SAVE CURRENT DATA
 # ==========================
 
 with open("heat_data.json", "w") as f:
@@ -110,3 +168,34 @@ with open("heat_data.json", "w") as f:
     json.dump(results, f, indent=2)
 
 print("\nSaved heat_data.json")
+
+# ==========================
+# APPEND HISTORY
+# ==========================
+
+history_file = "history.json"
+
+if os.path.exists(history_file):
+    with open(history_file, "r") as f:
+        try:
+            history = json.load(f)
+        except:
+            history = []
+else:
+    history = []
+
+snapshot = {
+"timestamp": results[0]["timestamp"],
+"stations": results
+}
+
+history.append(snapshot)
+
+# Keep only latest 5000 snapshots
+
+history = history[-5000:]
+
+with open(history_file, "w") as f:
+    json.dump(history, f, indent=2)
+
+print("Saved history.json")

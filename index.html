@@ -14,92 +14,96 @@
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <header>
+<header>
 
-          <h1>HBI</h1>
-            <h2>Heat Burden Intelligence</h2>
-            <p>Tracking Heat Stress Across South Asia</p>
-            <p id="last-update"></p>
+    <h1>HBI</h1>
 
-        </header>
+    <h2>Heat Burden Intelligence</h2>
 
-        <div class="cards">
+    <p class="tagline">
+        Tracking Heat Stress Across South Asia
+    </p>
 
-        <div class="metric-card">
+    <p id="last-update" class="timestamp"></p>
+
+</header>
+
+<div class="cards">
+
+    <div class="metric-card">
         <h3>🚨 Karachi Status</h3>
         <div id="karachi-status"></div>
-        </div>
-        
-        <div class="metric-card">
+    </div>
+
+    <div class="metric-card">
         <h3>🏙 Heat Divide</h3>
         <div id="heat-divide"></div>
-        </div>
+    </div>
 
-        <div class="metric-card">
-                    <h3>🔥 Highest Heat Burden</h3>
-                    <div id="top-city">Loading...</div>
-                    </div>
+    <div class="metric-card">
+        <h3>🔥 Highest Heat Burden</h3>
+        <div id="top-city">Loading...</div>
+    </div>
 
-                <div class="metric-card">
-                    <h3>🌙 Night Recovery</h3>
-                    <div id="recovery-status">Loading...</div>
-                    </div>
+    <div class="metric-card">
+        <h3>🌙 Night Recovery</h3>
+        <div id="recovery-status">Loading...</div>
+    </div>
 
-                <div class="metric-card">
-                <h3>📊 Karachi Burden Score</h3>
-                <div id="burden-score">Loading...</div>
-            </div>
+    <div class="metric-card">
+        <h3>📊 Karachi Burden Score</h3>
+        <div id="burden-score">Loading...</div>
+    </div>
+
+    <div class="metric-card">
+        <h3>📈 Karachi Trend</h3>
+        <div id="trend-status">Loading...</div>
+    </div>
 
 </div>
 
-        <section class="leaderboard">
+<section class="leaderboard">
 
-            <h3>Heat Stress Leaderboard</h3>
+    <h3>Heat Stress Leaderboard</h3>
 
-            <table>
+    <table>
 
-                <thead>
+        <thead>
 
-                    <tr>
-                        <th>Rank</th>
-                        <th>Area</th>
-                        <th>Heat Index</th>
-                        <th>Temp</th>
-                        <th>RH</th>
-                        <th>Risk</th>
-                    </tr>
+        <tr>
+            <th>Rank</th>
+            <th>Area</th>
+            <th>Heat Index</th>
+            <th>Trend</th>
+            <th>Risk</th>
+        </tr>
 
-                </thead>
+        </thead>
 
-                <tbody id="heat-table-body">
+        <tbody id="heat-table-body"></tbody>
 
-                </tbody>
+    </table>
 
-            </table>
+</section>
 
-        </section>
+<section class="about">
 
-        <section class="about">
+    <h3>About HBI</h3>
 
-            <h3>About HBI</h3>
+    <p>
+        Heat Burden Intelligence (HBI) tracks heat stress
+        exposure across South Asia using environmental
+        indicators that combine temperature and humidity
+        into a human-centred measure of risk.
+    </p>
 
-            <p>
+</section>
 
-                Heat Burden Intelligence (HBI) tracks
-                heat stress exposure across South Asia
-                using environmental indicators that
-                combine temperature and humidity into
-                a human-centred measure of risk.
+</div>
 
-            </p>
-
-        </section>
-
-    </div>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 

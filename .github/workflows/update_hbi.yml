@@ -38,7 +38,7 @@ jobs:
           git config user.name "HBI Bot"
           git config user.email "actions@github.com"
 
-          git add heat_data.json
+          git add heat_data.json history.json
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
