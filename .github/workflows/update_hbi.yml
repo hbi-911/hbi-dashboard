@@ -1,8 +1,8 @@
-name: Update HBI Data v2
+name: Update HBI Data v2.1
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
