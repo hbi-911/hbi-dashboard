@@ -15,6 +15,8 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Set Up Python
       uses: actions/setup-python@v5
@@ -40,6 +42,10 @@ jobs:
 
         git diff --staged --quiet || git commit -m "Auto-update HBI data"
 
+    - name: Pull Latest Changes
+      run: |
+        git pull --rebase origin main
+
     - name: Push Changes
       run: |
-        git push
+        git push origin main
