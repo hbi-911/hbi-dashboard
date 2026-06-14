@@ -1,14 +1,14 @@
 name: Update HBI Data
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-update-data:
-runs-on: ubuntu-latest
+  update-data:
+    runs-on: ubuntu-latest
 
 steps:
   - name: Checkout Repository
