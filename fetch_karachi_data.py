@@ -5,7 +5,12 @@ import json
 # CONFIGURATION
 # ==========================
 
-API_KEY = "e1f10a1e78da46f5b10a1e78da96f525"
+import os
+
+API_KEY = os.getenv("WU_API_KEY")
+
+if not API_KEY:
+    API_KEY = "e1f10a1e78da46f5b10a1e78da96f525"
 
 stations = {
     "IKARAC12": "Karachi Central",
