@@ -167,3 +167,34 @@ td {
     }
 
 }
+
+.risk-caution {
+    color: #facc15;
+}
+
+.risk-extreme-caution {
+    color: #fb923c;
+}
+
+.risk-danger {
+    color: #ef4444;
+}
+
+.risk-extreme-danger {
+    color: #a855f7;
+}
+
+.status-danger {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.status-warning {
+    color: #fb923c;
+    font-weight: bold;
+}
+
+.status-safe {
+    color: #22c55e;
+    font-weight: bold;
+}
