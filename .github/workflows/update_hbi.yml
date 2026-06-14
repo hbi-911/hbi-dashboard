@@ -1,0 +1,47 @@
+name: Update HBI Data
+
+on:
+schedule:
+- cron: '0 * * * *'
+workflow_dispatch:
+
+permissions:
+contents: write
+
+jobs:
+update-data:
+
+runs-on: ubuntu-latest
+
+steps:
+
+  - name: Checkout Repository
+    uses: actions/checkout@v4
+
+  - name: Set Up Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: '3.12'
+
+  - name: Install Dependencies
+    run: |
+      pip install requests
+
+  - name: Run HBI Data Fetcher
+    env:
+      WU_API_KEY: ${{ secrets.WU_API_KEY }}
+    run: |
+      python fetch_karachi_data.py
+
+  - name: Commit Updated Data
+    run: |
+      git config user.name "HBI Bot"
+      git config user.email "actions@github.com"
+
+      git add heat_data.json
+
+      git diff --staged --quiet || git commit -m "Auto-update HBI data"
+
+  - name: Push Changes
+    run: |
+      git push
