@@ -2,7 +2,7 @@
   {
     "area": "DHA",
     "station_id": "IKARAC52",
-    "timestamp": "2026-06-20 03:45:12",
+    "timestamp": "2026-06-20 04:00:24",
     "temperature": 30,
     "humidity": 87,
     "heat_index": 40,
@@ -14,7 +14,7 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-06-20 03:45:12",
+    "timestamp": "2026-06-20 04:00:24",
     "temperature": 30,
     "humidity": 87,
     "heat_index": 40,
@@ -26,19 +26,31 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-06-20 03:45:12",
+    "timestamp": "2026-06-20 04:00:23",
     "temperature": 30,
-    "humidity": 81,
-    "heat_index": 38,
+    "humidity": 80,
+    "heat_index": 37,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
     "longitude": 67.189802,
-    "trend": 0
+    "trend": -1
+  },
+  {
+    "area": "Gulshan-e-Roomi",
+    "station_id": "IKARAC79",
+    "timestamp": "2026-06-20 04:00:23",
+    "temperature": 30,
+    "humidity": 80,
+    "heat_index": 37,
+    "risk": "Extreme Caution",
+    "latitude": 24.915866,
+    "longitude": 67.171462,
+    "trend": 1
   },
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-06-20 03:45:02",
+    "timestamp": "2026-06-20 04:00:14",
     "temperature": 30,
     "humidity": 82,
     "heat_index": 37,
@@ -48,23 +60,11 @@
     "trend": 0
   },
   {
-    "area": "Gulshan-e-Roomi",
-    "station_id": "IKARAC79",
-    "timestamp": "2026-06-20 03:45:11",
-    "temperature": 30,
-    "humidity": 80,
-    "heat_index": 36,
-    "risk": "Extreme Caution",
-    "latitude": 24.915866,
-    "longitude": 67.171462,
-    "trend": 0
-  },
-  {
     "area": "NEDUET",
     "station_id": "IKARAC13",
-    "timestamp": "2026-06-20 03:45:06",
-    "temperature": 29,
-    "humidity": 79,
+    "timestamp": "2026-06-20 04:00:18",
+    "temperature": 30,
+    "humidity": 77,
     "heat_index": 36,
     "risk": "Extreme Caution",
     "latitude": 24.931265,
@@ -74,7 +74,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-06-20 03:45:13",
+    "timestamp": "2026-06-20 04:00:09",
     "temperature": 29,
     "humidity": 74,
     "heat_index": 33,
@@ -86,7 +86,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-06-20 03:45:04",
+    "timestamp": "2026-06-20 04:00:16",
     "temperature": 29,
     "humidity": 73,
     "heat_index": 33,
@@ -98,7 +98,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-06-20 03:45:14",
+    "timestamp": "2026-06-20 04:00:10",
     "temperature": 28,
     "humidity": 84,
     "heat_index": 33,
