@@ -2,21 +2,21 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-06-24 02:45:11",
+    "timestamp": "2026-06-24 03:00:23",
     "temperature": 30,
     "humidity": 85,
-    "heat_index": 39,
+    "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": 1
+    "trend": -1
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-06-24 02:45:05",
+    "timestamp": "2026-06-24 03:00:17",
     "temperature": 29,
-    "humidity": 79,
+    "humidity": 80,
     "heat_index": 36,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
@@ -26,7 +26,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-06-24 02:45:12",
+    "timestamp": "2026-06-24 03:00:23",
     "temperature": 29,
     "humidity": 80,
     "heat_index": 36,
@@ -38,7 +38,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-06-24 02:45:04",
+    "timestamp": "2026-06-24 03:00:16",
     "temperature": 29,
     "humidity": 78,
     "heat_index": 35,
@@ -50,9 +50,9 @@
   {
     "area": "NEDUET",
     "station_id": "IKARAC13",
-    "timestamp": "2026-06-24 02:45:12",
+    "timestamp": "2026-06-24 03:00:24",
     "temperature": 29,
-    "humidity": 76,
+    "humidity": 77,
     "heat_index": 35,
     "risk": "Extreme Caution",
     "latitude": 24.931265,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-06-24 02:45:04",
+    "timestamp": "2026-06-24 03:00:16",
     "temperature": 29,
     "humidity": 73,
     "heat_index": 33,
@@ -74,7 +74,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-06-24 02:45:15",
+    "timestamp": "2026-06-24 03:00:27",
     "temperature": 28,
     "humidity": 84,
     "heat_index": 33,
@@ -86,9 +86,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-06-24 02:45:13",
+    "timestamp": "2026-06-24 03:00:25",
     "temperature": 28,
-    "humidity": 73,
+    "humidity": 72,
     "heat_index": 32,
     "risk": "Extreme Caution",
     "latitude": 25.012044,
