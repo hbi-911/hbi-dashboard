@@ -112600,5 +112600,94 @@
         "trend": -1
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-24 12:00:24",
+    "stations": [
+      {
+        "area": "Bath Island",
+        "station_id": "IKARAC56",
+        "timestamp": "2026-06-24 12:00:24",
+        "temperature": 32,
+        "humidity": 78,
+        "heat_index": 45,
+        "risk": "Danger",
+        "latitude": 24.830362,
+        "longitude": 67.034933,
+        "trend": 0
+      },
+      {
+        "area": "DHA City",
+        "station_id": "IKARAC90",
+        "timestamp": "2026-06-24 12:00:10",
+        "temperature": 33,
+        "humidity": 65,
+        "heat_index": 41,
+        "risk": "Danger",
+        "latitude": 25.034945,
+        "longitude": 67.449316,
+        "trend": 1
+      },
+      {
+        "area": "Saadi Town",
+        "station_id": "IKARAC25",
+        "timestamp": "2026-06-24 12:00:23",
+        "temperature": 32,
+        "humidity": 70,
+        "heat_index": 41,
+        "risk": "Danger",
+        "latitude": 24.965532,
+        "longitude": 67.173695,
+        "trend": 0
+      },
+      {
+        "area": "Baldia",
+        "station_id": "IKARAC64",
+        "timestamp": "2026-06-24 12:00:16",
+        "temperature": 32,
+        "humidity": 69,
+        "heat_index": 40,
+        "risk": "Extreme Caution",
+        "latitude": 24.904213,
+        "longitude": 66.964523,
+        "trend": -2
+      },
+      {
+        "area": "Tank Chowk",
+        "station_id": "IKARAC38",
+        "timestamp": "2026-06-24 12:00:17",
+        "temperature": 32,
+        "humidity": 71,
+        "heat_index": 40,
+        "risk": "Extreme Caution",
+        "latitude": 24.912133,
+        "longitude": 67.189802,
+        "trend": 0
+      },
+      {
+        "area": "Gulshan-e-Roomi",
+        "station_id": "IKARAC79",
+        "timestamp": "2026-06-24 12:00:15",
+        "temperature": 32,
+        "humidity": 68,
+        "heat_index": 39,
+        "risk": "Extreme Caution",
+        "latitude": 24.915866,
+        "longitude": 67.171462,
+        "trend": 0
+      },
+      {
+        "area": "NEDUET",
+        "station_id": "IKARAC13",
+        "timestamp": "2026-06-24 12:00:24",
+        "temperature": 31,
+        "humidity": 72,
+        "heat_index": 39,
+        "risk": "Extreme Caution",
+        "latitude": 24.931265,
+        "longitude": 67.113701,
+        "trend": 0
+      }
+    ]
   }
 ]
