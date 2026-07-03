@@ -2,19 +2,19 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-07-03 20:30:33",
+    "timestamp": "2026-07-03 20:45:13",
     "temperature": 31,
-    "humidity": 86,
-    "heat_index": 43,
+    "humidity": 87,
+    "heat_index": 42,
     "risk": "Danger",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": 0
+    "trend": -1
   },
   {
     "area": "DHA",
     "station_id": "IKARAC52",
-    "timestamp": "2026-07-03 20:30:35",
+    "timestamp": "2026-07-03 20:45:24",
     "temperature": 30,
     "humidity": 89,
     "heat_index": 40,
@@ -26,7 +26,7 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-07-03 20:30:31",
+    "timestamp": "2026-07-03 20:45:24",
     "temperature": 30,
     "humidity": 81,
     "heat_index": 39,
@@ -38,7 +38,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-07-03 20:30:32",
+    "timestamp": "2026-07-03 20:45:11",
     "temperature": 30,
     "humidity": 81,
     "heat_index": 39,
@@ -50,19 +50,19 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-07-03 20:30:31",
+    "timestamp": "2026-07-03 20:45:19",
     "temperature": 30,
     "humidity": 81,
-    "heat_index": 38,
+    "heat_index": 37,
     "risk": "Extreme Caution",
     "latitude": 24.915866,
     "longitude": 67.171462,
-    "trend": 0
+    "trend": -1
   },
   {
     "area": "NEDUET",
     "station_id": "IKARAC13",
-    "timestamp": "2026-07-03 20:30:33",
+    "timestamp": "2026-07-03 20:45:23",
     "temperature": 30,
     "humidity": 79,
     "heat_index": 37,
@@ -74,7 +74,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-07-03 20:30:33",
+    "timestamp": "2026-07-03 20:45:12",
     "temperature": 29,
     "humidity": 81,
     "heat_index": 36,
@@ -86,7 +86,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-07-03 20:30:32",
+    "timestamp": "2026-07-03 20:45:12",
     "temperature": 29,
     "humidity": 72,
     "heat_index": 34,
