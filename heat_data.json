@@ -2,19 +2,19 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-07-16 02:45:30",
+    "timestamp": "2026-07-16 03:00:42",
     "temperature": 29,
-    "humidity": 88,
+    "humidity": 87,
     "heat_index": 36,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "DHA",
     "station_id": "IKARAC52",
-    "timestamp": "2026-07-16 02:45:34",
+    "timestamp": "2026-07-16 03:00:49",
     "temperature": 28,
     "humidity": 89,
     "heat_index": 35,
@@ -26,20 +26,20 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-07-16 02:45:34",
+    "timestamp": "2026-07-16 03:00:46",
     "temperature": 29,
     "humidity": 82,
-    "heat_index": 34,
+    "heat_index": 35,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
     "longitude": 67.189802,
-    "trend": 0
+    "trend": 1
   },
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-07-16 02:45:31",
-    "temperature": 29,
+    "timestamp": "2026-07-16 03:00:35",
+    "temperature": 28,
     "humidity": 82,
     "heat_index": 34,
     "risk": "Extreme Caution",
@@ -50,7 +50,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-07-16 02:45:30",
+    "timestamp": "2026-07-16 03:00:42",
     "temperature": 28,
     "humidity": 82,
     "heat_index": 33,
@@ -62,9 +62,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-07-16 02:45:31",
+    "timestamp": "2026-07-16 03:00:34",
     "temperature": 27,
-    "humidity": 76,
+    "humidity": 75,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 25.012044,
@@ -74,9 +74,9 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-07-16 02:45:31",
+    "timestamp": "2026-07-16 03:00:43",
     "temperature": 27,
-    "humidity": 86,
+    "humidity": 87,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 25.034945,
