@@ -2,9 +2,9 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-07-20 18:30:50",
+    "timestamp": "2026-07-20 18:45:30",
     "temperature": 30,
-    "humidity": 85,
+    "humidity": 86,
     "heat_index": 39,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
@@ -14,31 +14,31 @@
   {
     "area": "DHA",
     "station_id": "IKARAC52",
-    "timestamp": "2026-07-20 18:30:48",
+    "timestamp": "2026-07-20 18:45:45",
     "temperature": 29,
     "humidity": 86,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.797035,
     "longitude": 67.057496,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-07-20 18:30:48",
+    "timestamp": "2026-07-20 18:45:44",
     "temperature": 30,
     "humidity": 77,
     "heat_index": 37,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
     "longitude": 67.189802,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-07-20 18:30:51",
+    "timestamp": "2026-07-20 18:45:47",
     "temperature": 30,
     "humidity": 77,
     "heat_index": 36,
@@ -50,33 +50,33 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-07-20 18:30:41",
+    "timestamp": "2026-07-20 18:45:37",
     "temperature": 30,
     "humidity": 74,
     "heat_index": 35,
     "risk": "Extreme Caution",
     "latitude": 24.915866,
     "longitude": 67.171462,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-07-20 18:30:35",
+    "timestamp": "2026-07-20 18:45:31",
     "temperature": 29,
-    "humidity": 77,
+    "humidity": 78,
     "heat_index": 34,
     "risk": "Extreme Caution",
     "latitude": 25.034945,
     "longitude": 67.449316,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-07-20 18:30:35",
-    "temperature": 30,
-    "humidity": 66,
+    "timestamp": "2026-07-20 18:45:31",
+    "temperature": 29,
+    "humidity": 67,
     "heat_index": 33,
     "risk": "Extreme Caution",
     "latitude": 25.012044,
