@@ -2,7 +2,7 @@
   {
     "area": "DHA",
     "station_id": "IKARAC52",
-    "timestamp": "2026-07-21 17:54:32",
+    "timestamp": "2026-07-21 18:01:02",
     "temperature": 30,
     "humidity": 85,
     "heat_index": 39,
@@ -14,7 +14,7 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-07-21 17:54:19",
+    "timestamp": "2026-07-21 18:00:59",
     "temperature": 30,
     "humidity": 86,
     "heat_index": 39,
@@ -26,9 +26,9 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-07-21 17:54:32",
-    "temperature": 31,
-    "humidity": 75,
+    "timestamp": "2026-07-21 18:00:56",
+    "temperature": 30,
+    "humidity": 76,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
@@ -38,8 +38,8 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-07-21 17:54:31",
-    "temperature": 30,
+    "timestamp": "2026-07-21 18:00:58",
+    "temperature": 31,
     "humidity": 74,
     "heat_index": 37,
     "risk": "Extreme Caution",
@@ -48,23 +48,11 @@
     "trend": 0
   },
   {
-    "area": "DHA City",
-    "station_id": "IKARAC90",
-    "timestamp": "2026-07-21 17:54:31",
-    "temperature": 30,
-    "humidity": 75,
-    "heat_index": 36,
-    "risk": "Extreme Caution",
-    "latitude": 25.034945,
-    "longitude": 67.449316,
-    "trend": 0
-  },
-  {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-07-21 17:54:31",
+    "timestamp": "2026-07-21 18:01:03",
     "temperature": 30,
-    "humidity": 75,
+    "humidity": 76,
     "heat_index": 36,
     "risk": "Extreme Caution",
     "latitude": 24.915866,
@@ -72,9 +60,21 @@
     "trend": 0
   },
   {
+    "area": "DHA City",
+    "station_id": "IKARAC90",
+    "timestamp": "2026-07-21 18:00:55",
+    "temperature": 30,
+    "humidity": 75,
+    "heat_index": 35,
+    "risk": "Extreme Caution",
+    "latitude": 25.034945,
+    "longitude": 67.449316,
+    "trend": -1
+  },
+  {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-07-21 17:54:31",
+    "timestamp": "2026-07-21 18:00:56",
     "temperature": 30,
     "humidity": 65,
     "heat_index": 34,
