@@ -2,7 +2,7 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-07-30 21:45:47",
+    "timestamp": "2026-07-30 22:00:59",
     "temperature": 30,
     "humidity": 88,
     "heat_index": 40,
@@ -14,7 +14,7 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-07-30 21:45:52",
+    "timestamp": "2026-07-30 22:01:04",
     "temperature": 30,
     "humidity": 84,
     "heat_index": 39,
@@ -26,7 +26,7 @@
   {
     "area": "DHA Phase 2",
     "station_id": "IKARAC72",
-    "timestamp": "2026-07-30 21:45:49",
+    "timestamp": "2026-07-30 22:01:01",
     "temperature": 30,
     "humidity": 86,
     "heat_index": 39,
@@ -38,9 +38,9 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-07-30 21:46:02",
+    "timestamp": "2026-07-30 22:01:14",
     "temperature": 30,
-    "humidity": 81,
+    "humidity": 82,
     "heat_index": 39,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
@@ -50,7 +50,7 @@
   {
     "area": "DHA",
     "station_id": "IKARAC52",
-    "timestamp": "2026-07-30 21:45:58",
+    "timestamp": "2026-07-30 22:01:10",
     "temperature": 29,
     "humidity": 89,
     "heat_index": 38,
@@ -62,19 +62,19 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-07-30 21:45:46",
+    "timestamp": "2026-07-30 22:00:58",
     "temperature": 30,
     "humidity": 83,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.965532,
     "longitude": 67.173695,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-07-30 21:45:50",
+    "timestamp": "2026-07-30 22:01:02",
     "temperature": 30,
     "humidity": 82,
     "heat_index": 37,
@@ -86,7 +86,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-07-30 21:45:58",
+    "timestamp": "2026-07-30 22:01:09",
     "temperature": 29,
     "humidity": 85,
     "heat_index": 35,
@@ -98,7 +98,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-07-30 21:45:46",
+    "timestamp": "2026-07-30 22:00:58",
     "temperature": 29,
     "humidity": 72,
     "heat_index": 34,
@@ -110,7 +110,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-07-30 21:45:53",
+    "timestamp": "2026-07-30 22:01:05",
     "temperature": 29,
     "humidity": 75,
     "heat_index": 33,
