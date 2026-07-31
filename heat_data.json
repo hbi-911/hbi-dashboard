@@ -2,7 +2,7 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-01 03:33:30",
+    "timestamp": "2026-08-01 03:46:02",
     "temperature": 30,
     "humidity": 90,
     "heat_index": 40,
@@ -14,7 +14,7 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-08-01 03:33:00",
+    "timestamp": "2026-08-01 03:46:07",
     "temperature": 30,
     "humidity": 86,
     "heat_index": 39,
@@ -26,7 +26,7 @@
   {
     "area": "DHA",
     "station_id": "IKARAC52",
-    "timestamp": "2026-08-01 03:33:37",
+    "timestamp": "2026-08-01 03:46:15",
     "temperature": 29,
     "humidity": 91,
     "heat_index": 39,
@@ -38,7 +38,7 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-01 03:33:31",
+    "timestamp": "2026-08-01 03:46:13",
     "temperature": 30,
     "humidity": 84,
     "heat_index": 38,
@@ -50,7 +50,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-01 03:33:31",
+    "timestamp": "2026-08-01 03:46:01",
     "temperature": 30,
     "humidity": 85,
     "heat_index": 38,
@@ -62,7 +62,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-01 03:33:32",
+    "timestamp": "2026-08-01 03:46:04",
     "temperature": 29,
     "humidity": 85,
     "heat_index": 37,
@@ -74,7 +74,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-01 03:33:38",
+    "timestamp": "2026-08-01 03:46:10",
     "temperature": 29,
     "humidity": 87,
     "heat_index": 35,
@@ -86,7 +86,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-08-01 03:33:31",
+    "timestamp": "2026-08-01 03:46:05",
     "temperature": 29,
     "humidity": 75,
     "heat_index": 33,
@@ -98,7 +98,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-01 03:33:31",
+    "timestamp": "2026-08-01 03:46:15",
     "temperature": 29,
     "humidity": 76,
     "heat_index": 33,
