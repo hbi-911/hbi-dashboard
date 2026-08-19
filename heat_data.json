@@ -2,31 +2,43 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-19 16:27:47",
+    "timestamp": "2026-08-19 16:31:47",
     "temperature": 29,
     "humidity": 84,
-    "heat_index": 37,
+    "heat_index": 36,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": 0
+    "trend": -1
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-19 16:27:55",
+    "timestamp": "2026-08-19 16:31:39",
     "temperature": 29,
-    "humidity": 76,
+    "humidity": 77,
     "heat_index": 35,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
     "longitude": 67.189802,
-    "trend": -1
+    "trend": 0
+  },
+  {
+    "area": "Gulshan-e-Roomi",
+    "station_id": "IKARAC79",
+    "timestamp": "2026-08-19 16:31:39",
+    "temperature": 29,
+    "humidity": 74,
+    "heat_index": 34,
+    "risk": "Extreme Caution",
+    "latitude": 24.915866,
+    "longitude": 67.171462,
+    "trend": 1
   },
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-19 16:27:53",
+    "timestamp": "2026-08-19 16:31:05",
     "temperature": 29,
     "humidity": 76,
     "heat_index": 34,
@@ -38,7 +50,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-19 16:27:56",
+    "timestamp": "2026-08-19 16:31:40",
     "temperature": 29,
     "humidity": 71,
     "heat_index": 33,
@@ -48,23 +60,11 @@
     "trend": 0
   },
   {
-    "area": "Gulshan-e-Roomi",
-    "station_id": "IKARAC79",
-    "timestamp": "2026-08-19 16:27:55",
-    "temperature": 29,
-    "humidity": 74,
-    "heat_index": 33,
-    "risk": "Extreme Caution",
-    "latitude": 24.915866,
-    "longitude": 67.171462,
-    "trend": -1
-  },
-  {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-19 16:27:50",
+    "timestamp": "2026-08-19 16:31:34",
     "temperature": 29,
-    "humidity": 64,
+    "humidity": 65,
     "heat_index": 32,
     "risk": "Extreme Caution",
     "latitude": 25.012044,
