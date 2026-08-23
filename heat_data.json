@@ -2,9 +2,9 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-23 05:31:48",
+    "timestamp": "2026-08-23 05:46:44",
     "temperature": 27,
-    "humidity": 89,
+    "humidity": 88,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.830362,
@@ -14,7 +14,7 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-08-23 05:31:42",
+    "timestamp": "2026-08-23 05:44:36",
     "temperature": 27,
     "humidity": 87,
     "heat_index": 30,
@@ -26,7 +26,7 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-23 05:31:47",
+    "timestamp": "2026-08-23 05:46:43",
     "temperature": 27,
     "humidity": 84,
     "heat_index": 30,
@@ -38,7 +38,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-23 05:31:48",
+    "timestamp": "2026-08-23 05:46:44",
     "temperature": 27,
     "humidity": 83,
     "heat_index": 30,
@@ -50,7 +50,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-23 05:31:30",
+    "timestamp": "2026-08-23 05:46:42",
     "temperature": 27,
     "humidity": 87,
     "heat_index": 29,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-08-23 05:31:39",
+    "timestamp": "2026-08-23 05:46:35",
     "temperature": 26,
     "humidity": 75,
     "heat_index": 28,
@@ -74,9 +74,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-23 05:31:31",
-    "temperature": 25,
-    "humidity": 77,
+    "timestamp": "2026-08-23 05:46:38",
+    "temperature": 26,
+    "humidity": 78,
     "heat_index": 26,
     "risk": "Normal",
     "latitude": 25.012044,
@@ -86,8 +86,8 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-23 05:31:42",
-    "temperature": 26,
+    "timestamp": "2026-08-23 05:46:38",
+    "temperature": 25,
     "humidity": 89,
     "heat_index": 26,
     "risk": "Normal",
