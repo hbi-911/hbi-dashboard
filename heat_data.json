@@ -2,45 +2,33 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-08-24 17:01:48",
+    "timestamp": "2026-08-24 17:16:44",
     "temperature": 31,
-    "humidity": 74,
-    "heat_index": 39,
+    "humidity": 75,
+    "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.954111,
     "longitude": 67.143149,
-    "trend": 0
-  },
-  {
-    "area": "DHA City",
-    "station_id": "IKARAC90",
-    "timestamp": "2026-08-24 17:01:45",
-    "temperature": 31,
-    "humidity": 69,
-    "heat_index": 38,
-    "risk": "Extreme Caution",
-    "latitude": 25.034945,
-    "longitude": 67.449316,
     "trend": -1
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-24 17:01:55",
+    "timestamp": "2026-08-24 17:16:51",
     "temperature": 31,
-    "humidity": 71,
+    "humidity": 73,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
     "longitude": 67.189802,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-24 17:01:51",
+    "timestamp": "2026-08-24 17:16:47",
     "temperature": 31,
-    "humidity": 72,
+    "humidity": 73,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.965532,
@@ -50,9 +38,9 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-24 17:01:55",
+    "timestamp": "2026-08-24 17:16:35",
     "temperature": 30,
-    "humidity": 81,
+    "humidity": 80,
     "heat_index": 37,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
@@ -72,11 +60,23 @@
     "trend": 0
   },
   {
+    "area": "DHA City",
+    "station_id": "IKARAC90",
+    "timestamp": "2026-08-24 17:16:41",
+    "temperature": 31,
+    "humidity": 71,
+    "heat_index": 37,
+    "risk": "Extreme Caution",
+    "latitude": 25.034945,
+    "longitude": 67.449316,
+    "trend": -1
+  },
+  {
     "area": "DHA Phase 2",
     "station_id": "IKARAC72",
-    "timestamp": "2026-08-24 17:01:54",
+    "timestamp": "2026-08-24 17:16:34",
     "temperature": 30,
-    "humidity": 78,
+    "humidity": 79,
     "heat_index": 37,
     "risk": "Extreme Caution",
     "latitude": 24.829343,
@@ -86,13 +86,13 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-24 17:01:53",
-    "temperature": 31,
-    "humidity": 68,
+    "timestamp": "2026-08-24 17:16:49",
+    "temperature": 30,
+    "humidity": 70,
     "heat_index": 36,
     "risk": "Extreme Caution",
     "latitude": 24.915866,
     "longitude": 67.171462,
-    "trend": -1
+    "trend": 0
   }
 ]
