@@ -2,7 +2,7 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-26 06:25:57",
+    "timestamp": "2026-08-26 06:31:49",
     "temperature": 27,
     "humidity": 83,
     "heat_index": 31,
@@ -14,7 +14,7 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-08-26 06:26:02",
+    "timestamp": "2026-08-26 06:31:54",
     "temperature": 27,
     "humidity": 81,
     "heat_index": 30,
@@ -26,9 +26,9 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-26 06:25:50",
+    "timestamp": "2026-08-26 06:31:58",
     "temperature": 27,
-    "humidity": 78,
+    "humidity": 77,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 24.912133,
@@ -38,7 +38,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-26 06:25:50",
+    "timestamp": "2026-08-26 06:31:58",
     "temperature": 27,
     "humidity": 75,
     "heat_index": 30,
@@ -50,7 +50,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-26 06:25:49",
+    "timestamp": "2026-08-26 06:31:57",
     "temperature": 27,
     "humidity": 80,
     "heat_index": 30,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-08-26 06:25:56",
+    "timestamp": "2026-08-26 06:31:48",
     "temperature": 27,
     "humidity": 72,
     "heat_index": 29,
@@ -74,7 +74,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-26 06:26:02",
+    "timestamp": "2026-08-26 06:31:54",
     "temperature": 26,
     "humidity": 70,
     "heat_index": 28,
@@ -86,13 +86,13 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-26 06:25:55",
+    "timestamp": "2026-08-26 06:31:47",
     "temperature": 26,
     "humidity": 81,
-    "heat_index": 27,
+    "heat_index": 28,
     "risk": "Caution",
     "latitude": 25.034945,
     "longitude": 67.449316,
-    "trend": -1
+    "trend": 1
   }
 ]
