@@ -2,19 +2,19 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-28 07:01:57",
+    "timestamp": "2026-08-28 07:16:22",
     "temperature": 27,
-    "humidity": 86,
+    "humidity": 84,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": 1
+    "trend": 0
   },
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-08-28 07:01:59",
+    "timestamp": "2026-08-28 07:16:31",
     "temperature": 27,
     "humidity": 81,
     "heat_index": 30,
@@ -26,7 +26,7 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-28 07:02:04",
+    "timestamp": "2026-08-28 07:16:31",
     "temperature": 27,
     "humidity": 79,
     "heat_index": 30,
@@ -38,7 +38,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-28 07:02:03",
+    "timestamp": "2026-08-28 07:16:31",
     "temperature": 27,
     "humidity": 78,
     "heat_index": 30,
@@ -48,39 +48,39 @@
     "trend": 0
   },
   {
+    "area": "Baldia",
+    "station_id": "IKARAC64",
+    "timestamp": "2026-08-28 07:16:31",
+    "temperature": 27,
+    "humidity": 73,
+    "heat_index": 29,
+    "risk": "Caution",
+    "latitude": 24.904213,
+    "longitude": 66.964523,
+    "trend": 1
+  },
+  {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-28 07:02:02",
+    "timestamp": "2026-08-28 07:16:31",
     "temperature": 27,
-    "humidity": 80,
+    "humidity": 79,
     "heat_index": 29,
     "risk": "Caution",
     "latitude": 24.965532,
     "longitude": 67.173695,
-    "trend": -1
-  },
-  {
-    "area": "Baldia",
-    "station_id": "IKARAC64",
-    "timestamp": "2026-08-28 07:01:52",
-    "temperature": 26,
-    "humidity": 73,
-    "heat_index": 28,
-    "risk": "Caution",
-    "latitude": 24.904213,
-    "longitude": 66.964523,
     "trend": 0
   },
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-28 07:02:04",
+    "timestamp": "2026-08-28 07:16:31",
     "temperature": 26,
-    "humidity": 82,
-    "heat_index": 28,
+    "humidity": 81,
+    "heat_index": 27,
     "risk": "Caution",
     "latitude": 25.034945,
     "longitude": 67.449316,
-    "trend": 0
+    "trend": -1
   }
 ]
