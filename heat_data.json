@@ -2,7 +2,7 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-29 18:16:54",
+    "timestamp": "2026-08-29 18:32:06",
     "temperature": 28,
     "humidity": 86,
     "heat_index": 33,
@@ -14,20 +14,20 @@
   {
     "area": "DHA Phase 2",
     "station_id": "IKARAC72",
-    "timestamp": "2026-08-29 18:16:41",
+    "timestamp": "2026-08-29 18:31:53",
     "temperature": 28,
     "humidity": 84,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.829343,
     "longitude": 67.069202,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-29 18:16:59",
-    "temperature": 28,
+    "timestamp": "2026-08-29 18:31:55",
+    "temperature": 27,
     "humidity": 80,
     "heat_index": 31,
     "risk": "Caution",
@@ -36,33 +36,33 @@
     "trend": 0
   },
   {
-    "area": "Gulshan-e-Roomi",
-    "station_id": "IKARAC79",
-    "timestamp": "2026-08-29 18:16:56",
-    "temperature": 27,
-    "humidity": 79,
-    "heat_index": 31,
-    "risk": "Caution",
-    "latitude": 24.915866,
-    "longitude": 67.171462,
-    "trend": 0
-  },
-  {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-29 18:16:55",
+    "timestamp": "2026-08-29 18:31:51",
     "temperature": 28,
     "humidity": 82,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.965532,
     "longitude": 67.173695,
+    "trend": 0
+  },
+  {
+    "area": "Gulshan-e-Roomi",
+    "station_id": "IKARAC79",
+    "timestamp": "2026-08-29 18:31:52",
+    "temperature": 27,
+    "humidity": 78,
+    "heat_index": 30,
+    "risk": "Caution",
+    "latitude": 24.915866,
+    "longitude": 67.171462,
     "trend": -1
   },
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-08-29 18:16:45",
+    "timestamp": "2026-08-29 18:31:57",
     "temperature": 27,
     "humidity": 74,
     "heat_index": 29,
@@ -74,9 +74,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-29 18:16:51",
+    "timestamp": "2026-08-29 18:32:03",
     "temperature": 27,
-    "humidity": 69,
+    "humidity": 68,
     "heat_index": 29,
     "risk": "Caution",
     "latitude": 25.012044,
@@ -86,13 +86,13 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-29 18:16:54",
+    "timestamp": "2026-08-29 18:31:50",
     "temperature": 27,
-    "humidity": 81,
+    "humidity": 82,
     "heat_index": 29,
     "risk": "Caution",
     "latitude": 25.034945,
     "longitude": 67.449316,
-    "trend": -1
+    "trend": 0
   }
 ]
