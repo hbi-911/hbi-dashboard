@@ -2,9 +2,9 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-30 00:16:54",
+    "timestamp": "2026-08-30 00:32:06",
     "temperature": 27,
-    "humidity": 87,
+    "humidity": 88,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.830362,
@@ -14,9 +14,9 @@
   {
     "area": "DHA Phase 2",
     "station_id": "IKARAC72",
-    "timestamp": "2026-08-30 00:16:41",
+    "timestamp": "2026-08-30 00:31:53",
     "temperature": 27,
-    "humidity": 84,
+    "humidity": 85,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 24.829343,
@@ -26,7 +26,7 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-30 00:16:44",
+    "timestamp": "2026-08-30 00:31:56",
     "temperature": 27,
     "humidity": 80,
     "heat_index": 30,
@@ -38,9 +38,9 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-30 00:16:54",
+    "timestamp": "2026-08-30 00:32:06",
     "temperature": 27,
-    "humidity": 82,
+    "humidity": 81,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 24.965532,
@@ -50,7 +50,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-30 00:16:55",
+    "timestamp": "2026-08-30 00:31:51",
     "temperature": 27,
     "humidity": 79,
     "heat_index": 29,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-08-30 00:16:45",
+    "timestamp": "2026-08-30 00:31:57",
     "temperature": 26,
     "humidity": 74,
     "heat_index": 28,
@@ -74,7 +74,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-30 00:16:51",
+    "timestamp": "2026-08-30 00:32:03",
     "temperature": 26,
     "humidity": 71,
     "heat_index": 28,
@@ -86,7 +86,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-30 00:16:53",
+    "timestamp": "2026-08-30 00:32:05",
     "temperature": 26,
     "humidity": 82,
     "heat_index": 28,
