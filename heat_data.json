@@ -2,7 +2,7 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-29 18:46:46",
+    "timestamp": "2026-08-29 19:01:41",
     "temperature": 28,
     "humidity": 85,
     "heat_index": 33,
@@ -14,21 +14,21 @@
   {
     "area": "DHA Phase 2",
     "station_id": "IKARAC72",
-    "timestamp": "2026-08-29 18:46:49",
+    "timestamp": "2026-08-29 19:01:45",
     "temperature": 28,
-    "humidity": 81,
-    "heat_index": 31,
-    "risk": "Caution",
+    "humidity": 82,
+    "heat_index": 32,
+    "risk": "Extreme Caution",
     "latitude": 24.829343,
     "longitude": 67.069202,
-    "trend": 0
+    "trend": 1
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-29 18:46:51",
+    "timestamp": "2026-08-29 19:01:47",
     "temperature": 28,
-    "humidity": 80,
+    "humidity": 79,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.912133,
@@ -38,9 +38,9 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-29 18:46:47",
+    "timestamp": "2026-08-29 19:01:43",
     "temperature": 27,
-    "humidity": 81,
+    "humidity": 79,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.965532,
@@ -50,7 +50,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-29 18:46:48",
+    "timestamp": "2026-08-29 19:01:44",
     "temperature": 27,
     "humidity": 78,
     "heat_index": 30,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-08-29 18:46:53",
+    "timestamp": "2026-08-29 19:01:33",
     "temperature": 27,
     "humidity": 74,
     "heat_index": 29,
@@ -74,7 +74,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-29 18:46:43",
+    "timestamp": "2026-08-29 19:01:39",
     "temperature": 27,
     "humidity": 68,
     "heat_index": 29,
@@ -86,7 +86,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-29 18:46:46",
+    "timestamp": "2026-08-29 19:01:42",
     "temperature": 27,
     "humidity": 82,
     "heat_index": 29,
