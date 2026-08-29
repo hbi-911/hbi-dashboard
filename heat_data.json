@@ -2,31 +2,31 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-08-29 19:14:45",
+    "timestamp": "2026-08-29 19:16:53",
     "temperature": 28,
     "humidity": 87,
     "heat_index": 32,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "DHA Phase 2",
     "station_id": "IKARAC72",
-    "timestamp": "2026-08-29 19:14:31",
+    "timestamp": "2026-08-29 19:16:57",
     "temperature": 27,
     "humidity": 85,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.829343,
     "longitude": 67.069202,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-08-29 19:14:51",
+    "timestamp": "2026-08-29 19:16:59",
     "temperature": 28,
     "humidity": 80,
     "heat_index": 31,
@@ -38,7 +38,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-08-29 19:13:59",
+    "timestamp": "2026-08-29 19:16:55",
     "temperature": 28,
     "humidity": 78,
     "heat_index": 31,
@@ -50,7 +50,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-08-29 19:14:48",
+    "timestamp": "2026-08-29 19:16:56",
     "temperature": 27,
     "humidity": 80,
     "heat_index": 30,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-08-29 19:14:37",
+    "timestamp": "2026-08-29 19:16:45",
     "temperature": 27,
     "humidity": 74,
     "heat_index": 29,
@@ -74,7 +74,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-08-29 19:14:43",
+    "timestamp": "2026-08-29 19:16:51",
     "temperature": 27,
     "humidity": 69,
     "heat_index": 29,
@@ -86,7 +86,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-08-29 19:14:46",
+    "timestamp": "2026-08-29 19:16:38",
     "temperature": 26,
     "humidity": 82,
     "heat_index": 29,
