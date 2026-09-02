@@ -2,9 +2,9 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-09-03 00:46:56",
+    "timestamp": "2026-09-03 01:01:52",
     "temperature": 27,
-    "humidity": 88,
+    "humidity": 89,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.830362,
@@ -14,7 +14,7 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-09-03 00:46:55",
+    "timestamp": "2026-09-03 01:01:51",
     "temperature": 27,
     "humidity": 85,
     "heat_index": 30,
@@ -26,7 +26,7 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-09-03 00:47:01",
+    "timestamp": "2026-09-03 01:01:57",
     "temperature": 27,
     "humidity": 82,
     "heat_index": 30,
@@ -38,19 +38,19 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-09-03 00:46:55",
+    "timestamp": "2026-09-03 01:00:47",
     "temperature": 27,
-    "humidity": 82,
-    "heat_index": 29,
+    "humidity": 83,
+    "heat_index": 30,
     "risk": "Caution",
     "latitude": 24.915866,
     "longitude": 67.171462,
-    "trend": 0
+    "trend": 1
   },
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-09-03 00:46:55",
+    "timestamp": "2026-09-03 01:01:51",
     "temperature": 27,
     "humidity": 84,
     "heat_index": 29,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-09-03 00:46:58",
+    "timestamp": "2026-09-03 01:01:38",
     "temperature": 26,
     "humidity": 76,
     "heat_index": 26,
@@ -74,9 +74,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-09-03 00:46:51",
+    "timestamp": "2026-09-03 01:01:47",
     "temperature": 26,
-    "humidity": 76,
+    "humidity": 75,
     "heat_index": 26,
     "risk": "Normal",
     "latitude": 25.012044,
@@ -86,7 +86,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-09-03 00:47:00",
+    "timestamp": "2026-09-03 01:01:40",
     "temperature": 25,
     "humidity": 86,
     "heat_index": 26,
