@@ -2,19 +2,19 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-09-03 01:46:56",
+    "timestamp": "2026-09-03 02:02:09",
     "temperature": 27,
     "humidity": 89,
-    "heat_index": 32,
-    "risk": "Extreme Caution",
+    "heat_index": 31,
+    "risk": "Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": 1
+    "trend": -1
   },
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-09-03 01:46:58",
+    "timestamp": "2026-09-03 02:02:10",
     "temperature": 27,
     "humidity": 83,
     "heat_index": 30,
@@ -26,7 +26,7 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-09-03 01:45:39",
+    "timestamp": "2026-09-03 02:02:05",
     "temperature": 27,
     "humidity": 86,
     "heat_index": 29,
@@ -38,7 +38,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-09-03 01:46:55",
+    "timestamp": "2026-09-03 02:02:07",
     "temperature": 27,
     "humidity": 83,
     "heat_index": 29,
@@ -50,19 +50,19 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-09-03 01:47:11",
+    "timestamp": "2026-09-03 02:02:07",
     "temperature": 27,
-    "humidity": 85,
+    "humidity": 84,
     "heat_index": 29,
     "risk": "Caution",
     "latitude": 24.965532,
     "longitude": 67.173695,
-    "trend": -1
+    "trend": 0
   },
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-09-03 01:46:58",
+    "timestamp": "2026-09-03 02:02:10",
     "temperature": 26,
     "humidity": 75,
     "heat_index": 26,
@@ -74,7 +74,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-09-03 01:47:06",
+    "timestamp": "2026-09-03 02:02:18",
     "temperature": 26,
     "humidity": 75,
     "heat_index": 26,
@@ -86,7 +86,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-09-03 01:47:00",
+    "timestamp": "2026-09-03 02:02:12",
     "temperature": 25,
     "humidity": 86,
     "heat_index": 26,
