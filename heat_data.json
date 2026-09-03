@@ -2,19 +2,19 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-09-03 21:47:13",
+    "timestamp": "2026-09-03 22:02:10",
     "temperature": 28,
     "humidity": 86,
-    "heat_index": 33,
+    "heat_index": 32,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": 0
+    "trend": -1
   },
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-09-03 21:47:24",
+    "timestamp": "2026-09-03 22:02:04",
     "temperature": 27,
     "humidity": 83,
     "heat_index": 31,
@@ -26,8 +26,8 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-09-03 21:47:31",
-    "temperature": 28,
+    "timestamp": "2026-09-03 22:02:11",
+    "temperature": 27,
     "humidity": 81,
     "heat_index": 31,
     "risk": "Caution",
@@ -38,7 +38,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-09-03 21:47:25",
+    "timestamp": "2026-09-03 22:02:05",
     "temperature": 27,
     "humidity": 81,
     "heat_index": 30,
@@ -50,7 +50,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-09-03 21:47:26",
+    "timestamp": "2026-09-03 22:02:06",
     "temperature": 27,
     "humidity": 82,
     "heat_index": 30,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-09-03 21:47:13",
+    "timestamp": "2026-09-03 22:02:09",
     "temperature": 26,
     "humidity": 74,
     "heat_index": 28,
@@ -74,9 +74,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-09-03 21:47:21",
+    "timestamp": "2026-09-03 22:02:17",
     "temperature": 26,
-    "humidity": 74,
+    "humidity": 75,
     "heat_index": 28,
     "risk": "Caution",
     "latitude": 25.012044,
@@ -86,9 +86,9 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-09-03 21:47:13",
+    "timestamp": "2026-09-03 22:02:09",
     "temperature": 26,
-    "humidity": 81,
+    "humidity": 82,
     "heat_index": 28,
     "risk": "Caution",
     "latitude": 25.034945,
