@@ -2,7 +2,7 @@
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-09-06 03:49:36",
+    "timestamp": "2026-09-06 03:54:00",
     "temperature": 27,
     "humidity": 86,
     "heat_index": 31,
@@ -14,9 +14,9 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-09-06 03:49:37",
+    "timestamp": "2026-09-06 04:02:41",
     "temperature": 27,
-    "humidity": 90,
+    "humidity": 89,
     "heat_index": 31,
     "risk": "Caution",
     "latitude": 24.830362,
@@ -26,7 +26,7 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-09-06 03:49:33",
+    "timestamp": "2026-09-06 04:02:37",
     "temperature": 27,
     "humidity": 84,
     "heat_index": 30,
@@ -38,9 +38,9 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-09-06 03:49:31",
+    "timestamp": "2026-09-06 04:02:33",
     "temperature": 27,
-    "humidity": 84,
+    "humidity": 85,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 24.915866,
@@ -50,7 +50,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-09-06 03:49:31",
+    "timestamp": "2026-09-06 04:02:35",
     "temperature": 27,
     "humidity": 86,
     "heat_index": 30,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-09-06 03:49:32",
+    "timestamp": "2026-09-06 04:02:36",
     "temperature": 26,
     "humidity": 75,
     "heat_index": 28,
@@ -74,7 +74,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-09-06 03:49:31",
+    "timestamp": "2026-09-06 04:02:33",
     "temperature": 26,
     "humidity": 87,
     "heat_index": 27,
@@ -86,9 +86,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-09-06 03:49:41",
+    "timestamp": "2026-09-06 04:02:31",
     "temperature": 26,
-    "humidity": 78,
+    "humidity": 77,
     "heat_index": 26,
     "risk": "Normal",
     "latitude": 25.012044,
