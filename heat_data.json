@@ -2,19 +2,19 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-09-05 05:46:57",
+    "timestamp": "2026-09-05 06:02:09",
     "temperature": 27,
-    "humidity": 89,
+    "humidity": 88,
     "heat_index": 32,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
     "longitude": 67.034933,
-    "trend": 1
+    "trend": 0
   },
   {
     "area": "Karachi Central",
     "station_id": "IKARAC12",
-    "timestamp": "2026-09-05 05:46:51",
+    "timestamp": "2026-09-05 06:02:03",
     "temperature": 27,
     "humidity": 85,
     "heat_index": 30,
@@ -26,9 +26,9 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-09-05 05:46:55",
+    "timestamp": "2026-09-05 06:02:07",
     "temperature": 27,
-    "humidity": 81,
+    "humidity": 82,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 24.912133,
@@ -38,9 +38,9 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-09-05 05:46:51",
+    "timestamp": "2026-09-05 06:02:03",
     "temperature": 27,
-    "humidity": 80,
+    "humidity": 81,
     "heat_index": 30,
     "risk": "Caution",
     "latitude": 24.915866,
@@ -50,7 +50,7 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-09-05 05:46:52",
+    "timestamp": "2026-09-05 06:01:48",
     "temperature": 27,
     "humidity": 84,
     "heat_index": 30,
@@ -62,7 +62,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-09-05 05:46:54",
+    "timestamp": "2026-09-05 06:02:06",
     "temperature": 26,
     "humidity": 75,
     "heat_index": 28,
@@ -74,7 +74,7 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-09-05 05:46:52",
+    "timestamp": "2026-09-05 06:02:04",
     "temperature": 26,
     "humidity": 86,
     "heat_index": 27,
@@ -86,7 +86,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-09-05 05:47:03",
+    "timestamp": "2026-09-05 06:01:59",
     "temperature": 26,
     "humidity": 76,
     "heat_index": 26,
