@@ -2,21 +2,21 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-09-05 14:47:23",
+    "timestamp": "2026-09-05 15:02:03",
     "temperature": 32,
     "humidity": 63,
     "heat_index": 39,
     "risk": "Extreme Caution",
     "latitude": 25.034945,
     "longitude": 67.449316,
-    "trend": 1
+    "trend": 0
   },
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-09-05 14:47:29",
+    "timestamp": "2026-09-05 15:02:09",
     "temperature": 31,
-    "humidity": 76,
+    "humidity": 77,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
@@ -26,9 +26,9 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-09-05 14:47:31",
+    "timestamp": "2026-09-05 15:02:08",
     "temperature": 32,
-    "humidity": 67,
+    "humidity": 66,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
@@ -38,9 +38,9 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-09-05 14:47:23",
+    "timestamp": "2026-09-05 15:02:03",
     "temperature": 31,
-    "humidity": 68,
+    "humidity": 69,
     "heat_index": 38,
     "risk": "Extreme Caution",
     "latitude": 24.965532,
@@ -50,7 +50,7 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-09-05 14:47:19",
+    "timestamp": "2026-09-05 15:02:15",
     "temperature": 31,
     "humidity": 64,
     "heat_index": 36,
@@ -62,7 +62,7 @@
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-09-05 14:47:22",
+    "timestamp": "2026-09-05 15:02:02",
     "temperature": 31,
     "humidity": 62,
     "heat_index": 36,
@@ -74,13 +74,13 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-09-05 14:47:25",
+    "timestamp": "2026-09-05 15:02:05",
     "temperature": 30,
     "humidity": 68,
     "heat_index": 35,
     "risk": "Extreme Caution",
     "latitude": 24.904213,
     "longitude": 66.964523,
-    "trend": -1
+    "trend": 0
   }
 ]
