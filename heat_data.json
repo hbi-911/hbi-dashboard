@@ -2,9 +2,9 @@
   {
     "area": "Bath Island",
     "station_id": "IKARAC56",
-    "timestamp": "2026-09-09 22:47:12",
+    "timestamp": "2026-09-09 23:02:09",
     "temperature": 28,
-    "humidity": 89,
+    "humidity": 90,
     "heat_index": 33,
     "risk": "Extreme Caution",
     "latitude": 24.830362,
@@ -14,9 +14,9 @@
   {
     "area": "Tank Chowk",
     "station_id": "IKARAC38",
-    "timestamp": "2026-09-09 22:47:22",
+    "timestamp": "2026-09-09 23:02:34",
     "temperature": 28,
-    "humidity": 81,
+    "humidity": 82,
     "heat_index": 32,
     "risk": "Extreme Caution",
     "latitude": 24.912133,
@@ -26,19 +26,19 @@
   {
     "area": "Saadi Town",
     "station_id": "IKARAC25",
-    "timestamp": "2026-09-09 22:46:31",
+    "timestamp": "2026-09-09 23:02:31",
     "temperature": 28,
     "humidity": 81,
-    "heat_index": 32,
-    "risk": "Extreme Caution",
+    "heat_index": 31,
+    "risk": "Caution",
     "latitude": 24.965532,
     "longitude": 67.173695,
-    "trend": 1
+    "trend": -1
   },
   {
     "area": "Gulshan-e-Roomi",
     "station_id": "IKARAC79",
-    "timestamp": "2026-09-09 22:47:14",
+    "timestamp": "2026-09-09 23:02:31",
     "temperature": 27,
     "humidity": 82,
     "heat_index": 30,
@@ -50,7 +50,7 @@
   {
     "area": "Baldia",
     "station_id": "IKARAC64",
-    "timestamp": "2026-09-09 22:47:15",
+    "timestamp": "2026-09-09 23:02:31",
     "temperature": 27,
     "humidity": 75,
     "heat_index": 29,
@@ -62,9 +62,9 @@
   {
     "area": "Surjani",
     "station_id": "IKARAC41",
-    "timestamp": "2026-09-09 22:47:11",
+    "timestamp": "2026-09-09 23:02:31",
     "temperature": 27,
-    "humidity": 72,
+    "humidity": 73,
     "heat_index": 29,
     "risk": "Caution",
     "latitude": 25.012044,
@@ -74,13 +74,13 @@
   {
     "area": "DHA City",
     "station_id": "IKARAC90",
-    "timestamp": "2026-09-09 22:47:22",
+    "timestamp": "2026-09-09 23:02:31",
     "temperature": 26,
-    "humidity": 85,
-    "heat_index": 28,
+    "humidity": 86,
+    "heat_index": 27,
     "risk": "Caution",
     "latitude": 25.034945,
     "longitude": 67.449316,
-    "trend": 0
+    "trend": -1
   }
 ]
